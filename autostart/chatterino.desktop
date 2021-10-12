@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/miles/Shortcuts/Chatterino-x86_64.AppImage
+Name=chatterino
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

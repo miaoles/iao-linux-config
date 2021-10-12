@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=tint2 -c ~/Configuration/tint2/iao_right.tint2rc
+Name=tint2 Right
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

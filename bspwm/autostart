@@ -1,0 +1,51 @@
+#! /bin/sh
+
+### Kernel Modules
+#sudo modprobe -a vboxdrv vboxnetadp vboxnetflt vboxpci &
+
+### Environment
+. ~/.bash_profile &
+
+### Display
+xrandr --dpi 96 &
+xrandr --output HDMI-A-1 --auto --output DisplayPort-1 --auto --right-of HDMI-A-1 &
+#dbus-update-activation-environment GTK_OVERLAY_SCROLLING &
+
+### Daemons
+#mpd &
+#mpdscribble &
+#thrash-protect &
+picom -b --experimental-backends &
+cmst &
+lxqt-notificationd &
+lxqt-policykit-agent &
+lxqt-globalkeysd &
+lxqt-runner &
+xmousepasteblock &
+
+### Input
+sh ~/Scripts/Input/set_mouse_properties.sh &
+
+### GUI Applications
+feh --randomize --bg-fill  ~/Images/Wallpapers/1440p+/* &
+xsetroot -cursor_name left_ptr &
+tint2 -c ~/Configuration/tint2/iao_left.tint2rc &
+tint2 -c ~/Configuration/tint2/iao_center.tint2rc &
+tint2 -c ~/Configuration/tint2/iao_right.tint2rc &
+qlipper &
+
+### Windowed Applications
+alacritty &
+pcmanfm-qt &
+featherpad ~/.bashrc ~/Configurations/bspwm/autostart ~/Configurations/bspwm/bspwmrc ~/Configurations/sxhkd/sxhkdrc ~/.pam_environment ~/.mozilla/firefox/went8hhs.default-nightly/chrome/userChrome.css &
+pavucontrol-qt &
+qps &
+firefox-nightly &
+chatterino &
+discord-canary &
+#q4wine &
+
+### Miscellaneous
+sh /home/miles/Scripts/Pulseaudio/create-obs-audio-sinks.sh &
+
+sleep 30 && bspc rule -a pcmanfm-qt desktop=active && bspc rule -a pcmanfm-qt desktop=active && bspc rule -a Alacritty desktop=active && bspc rule -a Nightly desktop=active && bspc rule -a Navigator desktop=active && bspc rule -a chatterino desktop=active

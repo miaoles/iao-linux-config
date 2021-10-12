@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=sxhkd
+Name=sxhkd
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

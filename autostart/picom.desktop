@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=picom -b --experimental-backends
+Name=picom
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

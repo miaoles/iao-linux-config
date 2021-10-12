@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=featherpad ~/.bashrc ~/Configuration/bspwm/bspwmrc ~/Configuration/sxhkd/sxhkdrc
+Name=featherpad
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

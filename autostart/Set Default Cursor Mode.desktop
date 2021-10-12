@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=xsetroot -cursor_name left_ptr
+Name=Set Default Cursor Mode
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

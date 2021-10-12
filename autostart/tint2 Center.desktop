@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=tint2 -c ~/Configuration/tint2/iao_center.tint2rc
+Name=tint2 Center
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

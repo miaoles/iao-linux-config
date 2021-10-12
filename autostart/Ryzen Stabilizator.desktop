@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=sudo ryzen-stabilizator
+Name=Ryzen Stabilizator
+Type=Application
+Version=1.0
