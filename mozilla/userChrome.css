@@ -1,0 +1,10 @@
+#TabsToolbar:not([customizing="true"]) {
+	visibility: collapse !important;
+}
+#toolbar-menubar {
+	padding-top: 0px !important;
+}
+#sidebar-box[sidebarcommand="tabcenter-reborn_ariasuni-sidebar-action"] #sidebar-header {
+	visibility: collapse;
+}
+#contentAreaContextMenu{ margin: 5px 0 0 5px }
