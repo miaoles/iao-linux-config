@@ -1,6 +1,6 @@
 ###### iao's sxhkdrc - only bspwm binds included, lxqt-globalkeys handling apps
 
-### General
+### General ###
 
 # Close or Kill
 super + {_,shift + }Delete
@@ -10,7 +10,7 @@ super + {_,shift + }Delete
 super + m
 	bspc desktop -l next
 
-### State & Flags
+### State & Flags ###
 
 # Set the Window State
 super + {t,shift + t,s,f}
@@ -20,7 +20,7 @@ super + {t,shift + t,s,f}
 super + ctrl + {x,y,z}
 	bspc node -g {locked,sticky,private}
 
-### Focus & Swap
+### Focus & Swap ###
 
 # Focus Node or Send to a Desktop
 super + {_,shift + }{1-9,0}
@@ -55,7 +55,7 @@ super + {o,i}
 	bspc node {older,newer} -f; \
 	bspc wm -h on
 
-### Preselection
+### Preselection ###
 
 # Preselect Direction
 super + ctrl + {Left,Down,Up,Right}
@@ -73,7 +73,7 @@ super + ctrl + space
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
-### Rearrangement
+### Rearrangement ###
 
 # Rotate Desktop
 super + r
@@ -83,7 +83,7 @@ super + r
 #super + g
 #	bspc node -s biggest
 
-### Miscellaneous
+### Miscellaneous ###
 
 # Path of Exile Logout Macro
 grave
