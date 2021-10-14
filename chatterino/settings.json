@@ -1,0 +1,157 @@
+{
+    "misc": {
+        "currentVersion": "7.3.4",
+        "beta": true
+    },
+    "accounts": {
+        "current": "iao_",
+        "uid38482371": {
+            "username": "iao_",
+            "userID": "38482371",
+            "clientID": "g5zg0400k4vhrx2g6xi4hgveruamlv",
+            "oauthToken": "wysrkt55bovv2arlb2gtxd4ux45e4y"
+        }
+    },
+    "highlighting": {
+        "highlights": [
+            {
+                "pattern": "iao",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "iao_",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "yaoi",
+                "showInMentions": true,
+                "alert": false,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "yaoi_",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "yiao",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "yiao_",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "eeaaoo",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            },
+            {
+                "pattern": "eeaaoo_",
+                "showInMentions": true,
+                "alert": true,
+                "sound": true,
+                "regex": false,
+                "case": false,
+                "soundUrl": "",
+                "color": "#7f7f3f49"
+            }
+        ],
+        "whisperHighlight": {
+            "enableSound": true,
+            "enableTaskbarFlashing": true
+        },
+        "subHighlight": {
+            "enableTaskbarFlashing": false,
+            "enableSound": false
+        },
+        "alwaysPlaySound": true
+    },
+    "appearance": {
+        "currentFontFamily": "Roboto",
+        "showTabCloseButton": false,
+        "messages": {
+            "alternateMessageBackground": true,
+            "showTimestamps": true,
+            "timestampFormat": "hh:mm:ss"
+        },
+        "splitheader": {
+            "showUptime": true,
+            "showViewerCount": true,
+            "showGame": true,
+            "showTitle": true
+        },
+        "uiScale2": 0.8999999761581421,
+        "currentFontSize": 9,
+        "showTabLiveButton": true
+    },
+    "behaviour": {
+        "pauseChatModifier": 134217728,
+        "mouseScrollMultiplier": 2.0,
+        "mentionUsersWithComma": false,
+        "autocompletion": {
+            "emoteCompletionWithColon": true
+        }
+    },
+    "emotes": {
+        "removeSpacesBetweenEmotes": true,
+        "emojiSet": "Twitter",
+        "enableGifAnimations": true
+    },
+    "links": {
+        "linkInfoTooltip": true,
+        "doubleClickToOpen": true
+    },
+    "whispers": {
+        "highlightInlineWhispers": true
+    },
+    "ui": {
+        "lastSelectChannelTab": 0,
+        "lastSelectIrcConn": -1
+    },
+    "moderation": {
+        "actions": [
+            {
+                "pattern": "/timeout {user} 600"
+            }
+        ]
+    }
+}

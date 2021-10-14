@@ -1,6 +1,0 @@
-[Desktop Entry]
-Exec=xrandr --output HDMI-A-0 --auto --output DisplayPort-1 --auto --right-of HDMI-A-0
-Name=xrandr Correction
-OnlyShowIn=LXQt;
-Type=Application
-Version=1.0

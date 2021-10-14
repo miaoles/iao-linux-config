@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=sh /home/miles/Scripts/Pulseaudio/create-obs-audio-sinks.sh
+Exec=sh /iao/Executables/Pulseaudio/create-obs-audio-sinks.sh
 Name=Create OBS Audio Sinks
 OnlyShowIn=LXQt;
 Type=Application
