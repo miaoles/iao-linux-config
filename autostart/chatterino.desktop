@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/home/miles/Shortcuts/Chatterino-x86_64.AppImage
+Exec=chatterino
 Name=chatterino
 OnlyShowIn=LXQt;
 Type=Application

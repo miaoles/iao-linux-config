@@ -1,2 +1,5 @@
 [General]
-theme=KvFlatLight#
+theme=Qoln
+
+[Applications]
+Default=chatterino2, chatterino, obs, obs-studio

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=Discord
-Name=discord
+Exec=discordcanary
+Name=discordcanary
 OnlyShowIn=LXQt;
 Type=Application
 Version=1.0

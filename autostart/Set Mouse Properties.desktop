@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=sh /home/miles/Scripts/Input/set_mouse_properties.sh
+Exec=sh /home/miles/Executables/Input/set_mouse_properties.sh
 Name=Set Mouse Properties
 OnlyShowIn=LXQt;
 Type=Application

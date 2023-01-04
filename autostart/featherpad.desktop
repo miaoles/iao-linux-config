@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=featherpad ~/.bashrc ~/Configuration/bspwm/bspwmrc ~/Configuration/sxhkd/sxhkdrc
+Exec=sh ~/Executables/Autostart/featherpad-autostart.sh
 Name=featherpad
 OnlyShowIn=LXQt;
 Type=Application

@@ -42,7 +42,7 @@ super + {_,shift + }c
 	bspc node -f {next,prev}
 
 # Focus Desktop
-super + {Prior,Next}
+super + bracket{left,right}
 	bspc desktop -f {prev,next}
 
 # Focus Last Node/Desktop
@@ -75,6 +75,10 @@ super + ctrl + shift + space
 
 ### Rearrangement ###
 
+# Flip Desktop (Horizonally/Vertically)
+super + {h,v}
+	bspc node @/ -F {horizontal,vertical}
+	
 # Rotate Desktop
 super + r
 	bspc node @/ -R 90

@@ -1,5 +1,6 @@
 [Desktop Entry]
 Exec=sh /iao/Executables/Pulseaudio/create-obs-audio-sinks.sh
+Hidden=true
 Name=Create OBS Audio Sinks
 OnlyShowIn=LXQt;
 Type=Application
